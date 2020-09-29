@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ table.withBorders {
+     border: 1px solid black;
+ }
+
+ table.withBorders td {
+     border: 1px solid blue;
+     text-align: center;
+ }
